@@ -77,9 +77,7 @@ for (let i = mondat.length - 1; i >= 0; i--) {
     if (mondat === forditottMondat) {
         console.log("A mondat visszafelé is ugyanazt jelenti!");
     }
-    else if (mondat === "") {
-        console.log("Nem adtál meg mondatot!");
-    }
+    
     else{
         console.log("A mondat visszafelé nem ugyanazt jelenti!");
     
