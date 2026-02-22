@@ -67,24 +67,23 @@
 //a görög aludni”, vagy a ”Géza kék az ég” visszafelé olvasva is ugyanazt jelenti.) Ügyelj
 //a mondatvégi írásjelekre, mivel azok a mondat elején nem szerepelnek.
 
+let mondat = prompt("Adj meg egy mondatot!");
 
-//let mondat = prompt("Adj meg egy mondatot!");
-//
-//let forditottMondat = "";
-//
-//for (let i = mondat.length - 1; i >= 0; i--) {
-//    forditottMondat += mondat[i];
-//}
-//    if (mondat === forditottMondat) {
-//        console.log("A mondat visszafelé is ugyanazt jelenti!");
-//    }
-//    else if (mondat === "") {
-//        console.log("Nem adtál meg mondatot!");
-//    }
-//    else{
-//        console.log("A mondat visszafelé nem ugyanazt jelenti!");
-//    
-//
-// console.log(mondat);
-// console.log(forditottMondat);  
-//}
+let forditottMondat = "";
+
+for (let i = mondat.length - 1; i >= 0; i--) {
+    forditottMondat += mondat[i];
+}
+    if (mondat === forditottMondat) {
+        console.log("A mondat visszafelé is ugyanazt jelenti!");
+    }
+    else if (mondat === "") {
+        console.log("Nem adtál meg mondatot!");
+    }
+    else{
+        console.log("A mondat visszafelé nem ugyanazt jelenti!");
+    
+
+ console.log(`Eredeti mondat: ${mondat}`);
+ console.log(`Fordított mondat: ${forditottMondat}`);  
+}
