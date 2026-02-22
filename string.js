@@ -33,16 +33,58 @@
 
 // 3. Olvass be egy szöveget, és írd ki a betűit fordított sorrendben!
 
-let szoveg = prompt("Adj meg egy szöveget!");
-
-let forditottSzoveg = "";
-
-for (let i = szoveg.length - 1; i >= 0; i--) {
-    forditottSzoveg += szoveg[i];    
-}
-
-console.log(forditottSzoveg);
+//let szoveg = prompt("Adj meg egy szöveget!");
+//
+//let forditottSzoveg = "";
+//
+//for (let i = szoveg.length - 1; i >= 0; i--) {
+//    forditottSzoveg += szoveg[i];    
+//}
+//
+//console.log(forditottSzoveg);
 
 
 // 4. 5. HF
 
+//4. Olvass be egy mondatot és egy szót! Írasd ki, hogy a szó szerepel-e a mondatban!
+
+//let mondat = prompt("Adj meg egy mondatot!");
+//let szo = prompt("Adj meg egy szót!");
+//
+//if (mondat.includes(szo)) {
+//    console.log("A szó szerepel a mondatban!");
+//}else if (mondat === "") {
+//    console.log("Nem adtál meg mondatot!");
+//}
+//else if (szo === "") {
+//    console.log("Nem adtál meg szót!");
+//}
+//else{
+//    console.log("A szó nem szerepel a mondatban!");
+//}
+
+//5. A beolvasott mondatról döntsd el, hogy az visszafelé is ugyanazt jelenti-e! (Az ”Indul
+//a görög aludni”, vagy a ”Géza kék az ég” visszafelé olvasva is ugyanazt jelenti.) Ügyelj
+//a mondatvégi írásjelekre, mivel azok a mondat elején nem szerepelnek.
+
+
+//let mondat = prompt("Adj meg egy mondatot!");
+//
+//let forditottMondat = "";
+//
+//for (let i = mondat.length - 1; i >= 0; i--) {
+//    forditottMondat += mondat[i];
+//}
+//    if (mondat === forditottMondat) {
+//        console.log("A mondat visszafelé is ugyanazt jelenti!");
+//    }
+//    else if (mondat === "") {
+//        console.log("Nem adtál meg mondatot!");
+//    }
+//    else{
+//        console.log("A mondat visszafelé nem ugyanazt jelenti!");
+//    
+//
+// console.log(mondat);
+// console.log(forditottMondat);  
+//}
